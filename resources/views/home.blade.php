@@ -11,7 +11,7 @@
 
                 <div class="bg-[#D9D9D9]">
                     <div class="bg-[#141E38] p-2 text-right">
-                        <a href="#" class="text-white underline underline-offset-2 italic">Cek Tiket saya</a>
+                        <a href="/pilih_paket" class="text-white underline underline-offset-2 italic">Cek Tiket saya</a>
                     </div>
                     <div class="p-3">
                         <form>

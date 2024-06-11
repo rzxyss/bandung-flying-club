@@ -151,6 +151,20 @@
     <!-- End Footer -->
 
     <script src="{{ asset('assets/js/tailwind.js') }}"></script>
+    <script>
+        const routeOptions = document.querySelectorAll('.route-option');
+
+        routeOptions.forEach(routeOption => {
+            routeOption.addEventListener('click', () => {
+                routeOptions.forEach(option => {
+                    option.classList.remove('border-green-500',
+                    'border-4');
+                });
+                routeOption.classList.add('border-green-500',
+                'border-4');
+            });
+        });
+    </script>
 </body>
 
 </html>

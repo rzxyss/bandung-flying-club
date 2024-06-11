@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mx-auto max-w-screen-lg  p-4">
+    <div class="container mx-auto max-w-screen-lg p-4">
         <h1 class="font-semibold text-3xl py-2">Berita</h1>
         <h1 class="font-semibold text-3xl py-2">Berita Terbaru - Bandung Flying Club</h1>
 
