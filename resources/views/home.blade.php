@@ -1,6 +1,6 @@
 @extends('layouts.app') 
 @section('content')
-<div class="container mx-auto max-w-screen-lg p-4">
+<div class="container mx-auto max-w-screen-lg lg:max-w-screen-xl p-4">
     <!-- Start Heroes -->
     <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex flex-col justify-between">

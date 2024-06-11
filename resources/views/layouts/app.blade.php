@@ -25,7 +25,7 @@
             class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900"
         >
             <div
-                class="flex flex-wrap justify-between items-center mx-auto container max-w-screen-lg p-4"
+                class="flex flex-wrap justify-between items-center mx-auto container max-w-screen-lg lg:max-w-screen-xl p-4"
             >
                 <a class="flex items-center space-x-3 rtl:space-x-reverse">
                     <!-- <img src="" class="h-8" alt="Logo" /> -->
@@ -137,7 +137,7 @@
         <!-- Start Footer -->
         <footer class="bg-[#141E38] text-white">
             <div
-                class="container mx-auto max-w-screen-lg flex flex-col md:flex-row justify-between py-5"
+                class="container mx-auto max-w-screen-lg lg:max-w-screen-xl flex flex-col md:flex-row justify-between py-5"
             >
                 <div class="flex flex-col gap-3">
                     <div class="flex items-center gap-2">
