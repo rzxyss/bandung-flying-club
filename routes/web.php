@@ -19,3 +19,13 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news');
 });
+Route::get('/pilih_paket', function () {
+    if (request()->has('isi_detail')) {
+        return view('detail');
+    } else if(request()->has('bayar')) {
+        return view('bayar');
+    } else if(request()->has('bni') || request()->has('bca') || request()->has('gopay') || request()->has('qris')) {
+        return view('detail_bayar');
+    }
+    return view('paket');
+});
