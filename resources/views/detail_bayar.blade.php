@@ -20,17 +20,23 @@
         <div class="flex flex-col-reverse md:flex-row gap-5">
             <div class="flex flex-col p-5 bg-[#D9D9D9] w-full md:w-3/5">
                 <h1 class="font-semibold text-lg">
-                @if (request()->has('bni'))
-                    Transfer Bank BNI
-                @elseif (request()->has('bca'))
-                    Transfer Bank BCA
-                @elseif (request()->has('gopay'))
-                    Gopay
-                @elseif (request()->has('qris'))
-                    QRIS
-                @endif
+                    @if (request()->has('bni'))
+                        Transfer Bank BNI
+                    @elseif (request()->has('bca'))
+                        Transfer Bank BCA
+                    @elseif (request()->has('gopay'))
+                        Gopay
+                    @elseif (request()->has('qris'))
+                        QRIS
+                    @endif
                 </h1>
-                <img class="h-auto max-w-md" src="{{asset('assets/image/qrcode.png')}}" alt="QRCode">
+                <div class="flex justify-center">
+                    <img class="h-auto max-w-md" src="{{ asset('assets/image/qrcode.png') }}" alt="QRCode">
+                </div>
+                <h1 class="font-semibold text-lg text-center py-5">
+                    NMID : 12345678
+                </h1>
+                <button class="bg-[#141E38] py-2 text-white">Saya Sudah Bayar</button>
             </div>
             <div class="flex flex-row justify-between p-5 bg-[#D9D9D9] w-full md:w-2/5">
                 <div class="flex flex-col gap-3">
