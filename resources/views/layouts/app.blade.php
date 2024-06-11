@@ -91,7 +91,7 @@
     <!-- End Navbar -->
 
     <!-- Start Footer -->
-    <footer class="bg-[#141E38] text-white">
+    <footer class="bg-[#141E38] text-white p-4">
         <div
             class="container mx-auto max-w-screen-lg lg:max-w-screen-xl flex flex-col md:flex-row justify-between py-5">
             <div class="flex flex-col gap-3">
