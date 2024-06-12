@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <div class="grid grid-cols-3 md:gap-4">
+    <div class="grid gap-3 grid-cols-2 justify-items-center md:grid-cols-3 md:gap-4">
         <div class="flex flex-col items-center">
             <div class="bg-white rounded-lg flex flex-col justify-between items-center py-3 px-11 gap-2">
                 <i class="fa-solid fa-users text-2xl md:text-8xl"></i>
