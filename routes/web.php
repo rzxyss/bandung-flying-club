@@ -29,3 +29,14 @@ Route::get('/pilih_paket', function () {
     }
     return view('paket');
 });
+Route::prefix('admin')->group(function () {
+    Route::get('/dashboard', function () {
+        return view('admin.dashboard');
+    });
+    Route::get('/staff', function () {
+        return view('admin.staff');
+    });
+    Route::get('/ticketing', function () {
+        return view('admin.ticketing');
+    });
+});
