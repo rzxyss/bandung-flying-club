@@ -4,47 +4,49 @@
     <div class="flex flex-col md:flex-row md:items-start gap-2">
         <div class="w-full md:w-4/12">
             <h1 class="font-medium text-lg md:pb-3">Input Ketersediaan Jadwal</h1>
-            <form>
-                <div class="mb-5">
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tanggal</label>
-                    <input type="date"
-                        class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
-                        required />
-                </div>
-
-                <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jam</label>
-                <div class="flex items-center gap-3">
+            <div class="relative overflow-x-auto w-full">
+                <form>
                     <div class="mb-5">
-                        <input type="time"
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tanggal</label>
+                        <input type="date"
                             class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
                             required />
                     </div>
-                    <span class="self-center"> - </span>
+
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jam</label>
+                    <div class="flex items-center gap-3">
+                        <div class="mb-5">
+                            <input type="time"
+                                class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
+                                required />
+                        </div>
+                        <span class="self-center"> - </span>
+                        <div class="mb-5">
+                            <input type="time"
+                                class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
+                                required />
+                        </div>
+                    </div>
+
                     <div class="mb-5">
-                        <input type="time"
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tujuan</label>
+                        <textarea
+                            class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"></textarea>
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Harga</label>
+                        <input type="text"
                             class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
                             required />
                     </div>
-                </div>
-
-                <div class="mb-5">
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tujuan</label>
-                    <textarea
-                        class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"></textarea>
-                </div>
-
-                <div class="mb-5">
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Harga</label>
-                    <input type="text"
-                        class="bg-[#EBEBEB] border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
-                        required />
-                </div>
-                <div class="flex justify-center">
-                    <button class="bg-[#50CF9A] px-5 py-2 rounded-full text-white">
-                        <h1 class="font-semibold font-xl">Konfirmasi</h1>
-                    </button>
-                </div>
-            </form>
+                    <div class="flex justify-center">
+                        <button class="bg-[#50CF9A] px-5 py-2 rounded-full text-white">
+                            <h1 class="font-semibold font-xl">Konfirmasi</h1>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
 
         {{-- Jadwal Section --}}
