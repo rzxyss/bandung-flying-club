@@ -39,4 +39,10 @@ Route::prefix('admin')->group(function () {
     Route::get('/ticketing', function () {
         return view('admin.ticketing');
     });
+    Route::get('/inventory', function () {
+        return view('admin.inventory');
+    });
+    Route::get('/maintenance', function () {
+        return view('admin.maintenance');
+    });
 });

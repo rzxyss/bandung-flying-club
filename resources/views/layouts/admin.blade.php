@@ -85,7 +85,7 @@
                             class="ms-3 {{ Request::is('admin/dashboard') ? 'text-white' : 'text-[#6BB2B7]' }}">Home</span>
                     </a>
                 </li>
-                <li>
+                <li class="{{request()->has('staff') ? 'hidden' : ''}}"> {{-- Logika jika yang login adalah staff bisa diganti disini --}}
                     <a href="/admin/staff"
                         class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/staff') ? 'bg-[#6B93B7]' : 'bg-white' }}">
                         <i
@@ -104,7 +104,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/admin/inventory"
                         class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/inventory') ? 'bg-[#7AB76B]' : 'bg-white' }}">
                         <i
                             class="fa-solid fa-briefcase {{ Request::is('admin/inventory') ? 'text-white' : 'text-[#7AB76B]' }}"></i>
@@ -113,7 +113,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/admin/maintenance"
                         class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/maintenance') ? 'bg-[#B76B6B]' : 'bg-white' }}">
                         <i
                             class="fa-solid fa-circle-xmark {{ Request::is('admin/maintenance') ? 'text-white' : 'text-[#B76B6B]' }}"></i>
