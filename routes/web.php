@@ -46,3 +46,6 @@ Route::prefix('admin')->group(function () {
         return view('admin.maintenance');
     });
 });
+Route::get('/login', function () {
+    return view('admin.login');
+});
