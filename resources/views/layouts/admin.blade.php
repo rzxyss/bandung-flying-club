@@ -85,7 +85,7 @@
                             class="ms-3 {{ Request::is('admin/dashboard') ? 'text-white' : 'text-[#6BB2B7]' }}">Home</span>
                     </a>
                 </li>
-                <li class="{{request()->has('staff') ? 'hidden' : ''}}"> {{-- Logika jika yang login adalah staff bisa diganti disini --}}
+                <li class="{{ request()->has('staff') ? 'hidden' : '' }}"> {{-- Logika jika yang login adalah staff bisa diganti disini --}}
                     <a href="/admin/staff"
                         class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/staff') ? 'bg-[#6B93B7]' : 'bg-white' }}">
                         <i
@@ -121,6 +121,16 @@
                             class="flex-1 ms-3 whitespace-nowrap {{ Request::is('admin/maintenance') ? 'text-white' : 'text-[#B76B6B]' }}">Maintenance</span>
                     </a>
                 </li>
+                <div class="absolute bottom-3 inset-x-0 w-full px-3">
+                    <li>
+                        <a href="/login"
+                            class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group bg-white">
+                            <i class="fa-solid fa-right-to-bracket text-red-500 rotate-180"></i>
+                            <span
+                                class="flex-1 ms-3 whitespace-nowrap text-red-500">Logout</span>
+                        </a>
+                    </li>
+                </div>
             </ul>
         </div>
     </aside>
