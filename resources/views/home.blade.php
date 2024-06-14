@@ -48,9 +48,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>CT-2K</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?ct2k" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                     <figure class="relative max-w-sm transition-all duration-300">
@@ -58,9 +58,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>Savanah</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?savanah" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                     <figure class="relative max-w-sm transition-all duration-300">
@@ -68,9 +68,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>Zenit Stol</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?zenitstol" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                     <figure class="relative max-w-sm transition-all duration-300">
@@ -78,9 +78,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>CT-2K</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?ct2k" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                     <figure class="relative max-w-sm transition-all duration-300">
@@ -88,9 +88,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>Savanah</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?savanah" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                     <figure class="relative max-w-sm transition-all duration-300">
@@ -98,9 +98,9 @@
                         <figcaption
                             class="absolute px-4 text-lg text-white bottom-6 w-full flex flex-row justify-between items-center">
                             <h1>Zenit Stol</h1>
-                            <button class="border border-white p-1">
+                            <a href="/armada/detail?zenitstol" class="border border-white p-1">
                                 Lihat Detail
-                            </button>
+                            </a>
                         </figcaption>
                     </figure>
                 </div>
