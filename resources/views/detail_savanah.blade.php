@@ -6,7 +6,7 @@
             <h1 class="font-semibold text-3xl py-2">Savanah</h1>
         </div>
 
-        <div class="flex flex-col md:flex-row w-full gap-5">
+        <div class="flex flex-col-reverse md:flex-row w-full gap-5">
             <div class="w-full">
                 <h1 class="font-semibold text-3xl pb-7">Spesifikasi Savanah</h1>
 

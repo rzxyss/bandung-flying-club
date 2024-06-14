@@ -6,7 +6,7 @@
             <h1 class="font-semibold text-3xl py-2">CT-2K</h1>
         </div>
 
-        <div class="flex flex-col md:flex-row w-full gap-5">
+        <div class="flex flex-col-reverse md:flex-row w-full gap-5">
             <div class="w-full">
                 <h1 class="font-semibold text-3xl pb-7">Spesifikasi CT-2K</h1>
 
