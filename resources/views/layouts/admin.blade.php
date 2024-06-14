@@ -87,11 +87,11 @@
                 </li>
                 <li class="{{ request()->has('staff') ? 'hidden' : '' }}"> {{-- Logika jika yang login adalah staff bisa diganti disini --}}
                     <a href="/admin/staff"
-                        class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/staff') ? 'bg-[#6B93B7]' : 'bg-white' }}">
+                        class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#D6D6D6] group {{ Request::is('admin/staff') || Request::is('admin/staff/add') || Request::is('admin/staff/edit') ? 'bg-[#6B93B7]' : 'bg-white' }}">
                         <i
-                            class="fa-solid fa-user-group {{ Request::is('admin/staff') ? 'text-white' : 'text-[#6B93B7]' }}"></i>
+                            class="fa-solid fa-user-group {{ Request::is('admin/staff') || Request::is('admin/staff/add') || Request::is('admin/staff/edit') ? 'text-white' : 'text-[#6B93B7]' }}"></i>
                         <span
-                            class="flex-1 ms-3 whitespace-nowrap {{ Request::is('admin/staff') ? 'text-white' : 'text-[#6B93B7]' }}">Staff</span>
+                            class="flex-1 ms-3 whitespace-nowrap {{ Request::is('admin/staff') || Request::is('admin/staff/add') || Request::is('admin/staff/edit') ? 'text-white' : 'text-[#6B93B7]' }}">Staff</span>
                     </a>
                 </li>
                 <li>
