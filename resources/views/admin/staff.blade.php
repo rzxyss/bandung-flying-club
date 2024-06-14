@@ -10,11 +10,6 @@
             <i class="fa-solid fa-plus font-semibold text-xl"></i>
             <h1 class="font-semibold font-xl">Tambah</h1>
         </a>
-        {{-- <button data-modal-target="staff-modal" data-modal-toggle="staff-modal"
-            class="flex items-center gap-1 bg-[#88CCA7] p-5 rounded-full text-white">
-            <i class="fa-solid fa-plus font-semibold text-xl"></i>
-            <h1 class="font-semibold font-xl">Tambah</h1>
-        </button> --}}
     </div>
     <div class="grid md:grid-cols-3 gap-4">
         {{-- Start Looping Staff --}}
