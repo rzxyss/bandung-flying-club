@@ -13,7 +13,9 @@
                     <img src="{{ asset('assets/image/news1.png') }}" alt="Main Feature" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 text-white p-4">
                         <span class="bg-[#141E38] px-2 py-1 text-xs font-bold uppercase">Min, 20 Feb 2024</span>
-                        <h2 class="mt-2 text-lg font-semibold">Tanggapan pelanggan terhadap layanan BFC</h2>
+                        <a href="/news/detail">
+                            <h2 class="mt-2 text-lg font-semibold">Tanggapan pelanggan terhadap layanan BFC</h2>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -24,28 +26,36 @@
                     <img src="{{ asset('assets/image/news2.png') }}" alt="Feature 1" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 text-white p-2">
                         <span class="bg-[#141E38] px-2 py-1 text-xs font-bold uppercase">Min, 20 Feb 2024</span>
-                        <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        <a href="/news/detail">
+                            <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        </a>
                     </div>
                 </div>
                 <div class="relative bg-white rounded-lg overflow-hidden shadow-lg">
                     <img src="{{ asset('assets/image/news2.png') }}" alt="Feature 1" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 text-white p-2">
                         <span class="bg-[#141E38] px-2 py-1 text-xs font-bold uppercase">Min, 20 Feb 2024</span>
-                        <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        <a href="/news/detail">
+                            <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        </a>
                     </div>
                 </div>
                 <div class="relative bg-white rounded-lg overflow-hidden shadow-lg">
                     <img src="{{ asset('assets/image/news2.png') }}" alt="Feature 1" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 text-white p-2">
                         <span class="bg-[#141E38] px-2 py-1 text-xs font-bold uppercase">Min, 20 Feb 2024</span>
-                        <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        <a href="/news/detail">
+                            <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        </a>
                     </div>
                 </div>
                 <div class="relative bg-white rounded-lg overflow-hidden shadow-lg">
                     <img src="{{ asset('assets/image/news2.png') }}" alt="Feature 1" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 text-white p-2">
                         <span class="bg-[#141E38] px-2 py-1 text-xs font-bold uppercase">Min, 20 Feb 2024</span>
-                        <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        <a href="/news/detail">
+                            <h2 class="mt-2 text-lg font-semibold">Pesawat Baru</h2>
+                        </a>
                     </div>
                 </div>
             </div>
